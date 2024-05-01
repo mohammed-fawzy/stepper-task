@@ -4,7 +4,7 @@
     <div class="mt-10" >
         <transition :name="transitionName">
           <KeepAlive>
-            <component :is="componentNames[active]" @next="next" @prev="prev"/>
+            <component :is="componentNames[active]" @next="next" @prev="prev" :theMainData="active === componentNames.length - 1 ? theMainData : {}" />
           </KeepAlive>
         </transition>
     </div>

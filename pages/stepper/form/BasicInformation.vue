@@ -93,8 +93,8 @@
 
     </div><!-- container -->
 
-    <div class="flex justify-end mb-10">
-      <Button type="submit" class="bg-primary h-48 font-normal text-2xl mt-4"> Next </Button>
+    <div class="flex justify-end mb-10 mt-10">
+      <Button type="submit" class="bg-primary h-48 font-normal text-2xl"> Next </Button>
     </div>
   </Form>
 </template>
@@ -150,10 +150,7 @@ async function onAdvancedUploadAvatar(event) {
 
 const basicForm = ref(null);
 const onSubmit = ( values ) => {
-  console.log(values, 'values');
   emit("next", values);
-  // basicForm.value.validate().then(() => {
-  // })
 }
 
 

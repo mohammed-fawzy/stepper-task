@@ -1009,7 +1009,7 @@ const _inlineRuntimeConfig = {
     },
     "i18n": {
       "baseUrl": "",
-      "defaultLocale": "en",
+      "defaultLocale": "",
       "defaultDirection": "ltr",
       "strategy": "prefix_except_default",
       "lazy": false,

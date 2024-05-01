@@ -1,0 +1,42 @@
+{
+  "name": "stepper-task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@fullcalendar/vue3": "^6.1.11",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@vee-validate/nuxt": "^4.12.6",
+    "@vee-validate/rules": "^4.12.6",
+    "defu": "^6.1.4",
+    "nuxt": "^3.11.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^3.50.0",
+    "sass": "^1.72.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue3-tel-input": "^1.0.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.3.0",
+    "autoprefixer": "^10.4.19",
+    "nuxt-primevue": "^0.3.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
+}
